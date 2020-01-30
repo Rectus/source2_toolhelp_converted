@@ -1,0 +1,236 @@
+"lang" 
+{ 
+	"Language" "English" 
+	"Tokens" 
+	{	
+
+		"Command.HammerEditorSession.ToolBlock" "Block Tool"
+		"Command.HammerEditorSession.ToolBlock:shorthelp" ""
+		"Command.HammerEditorSession.ToolBlock:help" "Create new shapes by dragging out a block"
+
+		"Command.ToolFaceSelection.Combine" ""
+		"Command.ToolFaceSelection.Combine:shorthelp" ""
+		"Command.ToolFaceSelection.Combine:help" ""
+
+		"Command.HammerEditorSession.ToggleNavAlwaysVisible" "Toggle 'Nav Always Visible'"
+		"Command.HammerEditorSession.ToggleNavAlwaysVisible:shorthelp" ""
+		"Command.HammerEditorSession.ToggleNavAlwaysVisible:help" "On:  nav areas are always displayed.<br>
+Off: nav areas are only displayed while using the Navigation tool."
+
+		"Command.HammerEditorSession.ToggleNavMarkupVisibility" "Toggle 'Nav Markup Visible'"
+		"Command.HammerEditorSession.ToggleNavMarkupVisibility:shorthelp" ""
+		"Command.HammerEditorSession.ToggleNavMarkupVisibility:help" "On:  Nav markup volumes are displayed<br>
+Off: Nav markup volumes are hidden"
+
+		"Command.ToolNavMesh.PullFromChildren" "Pull Nav Areas From Child Prefabs/Instances"
+		"Command.ToolNavMesh.PullFromChildren:shorthelp" ""
+		"Command.ToolNavMesh.PullFromChildren:help" "<br>Command details:
+<ul>
+<li> It 'pulls' nav areas from child prefabs into the current map </li>
+<li> It deliberately does not pull nav from grand-child prefabs </li>
+<li> It only works when editing the current <b>root</b> map<br> (not while editing a prefab <b>in-place</b>) </li>
+<li> If objects are selected, it only pulls nav from <em>selected</em> prefabs.<br> This makes it easy to pull in nav one prefab at a time,<br> or to re-pull nav from an updated prefab </li>
+<li> Instances are handled the same way as prefabs </li>
+<li> <b>NOTE: It does not check for nav area <em>duplication</em><br> (so if you pull nav from a prefab twice, it could get ugly!) </b> </li>
+</ul>
+
+See also:
+<ul>
+<li> <b>Navigation</b> tool panel: <b>Object Selection</b> radio button </li>
+<li> <b>Navigation</b> tool panel: <b>Child Prefab Areas Always Visible</b> checkbox </li>
+<li> <b>Map Settings</b> toolbar: <b><a href='helpsystem:Command.HammerEditorSession.ToggleNavAlwaysVisible'>Toggle Nav Always Visible</a></b> </li>"
+
+		"Command.ToolDotaTileEditor.ModeSelect" "Select Items"
+		"Command.ToolDotaTileEditor.ModeSelect:shorthelp" ""
+		"Command.ToolDotaTileEditor.ModeSelect:help" "Select and modify both tiles and objects"
+
+		"Command.ToolDotaTileEditor.ModeEditObjects" "Place Objects"
+		"Command.ToolDotaTileEditor.ModeEditObjects:shorthelp" ""
+		"Command.ToolDotaTileEditor.ModeEditObjects:help" "Place individual props, trees and plants"
+
+		"Command.ToolDotaTileEditor.ModeBrushHeight" "Paint Height"
+		"Command.ToolDotaTileEditor.ModeBrushHeight:shorthelp" ""
+		"Command.ToolDotaTileEditor.ModeBrushHeight:help" "Raise or lower ground height"
+
+		"Command.ToolDotaTileEditor.ModeBrushTrees" "Paint trees"
+		"Command.ToolDotaTileEditor.ModeBrushTrees:shorthelp" ""
+		"Command.ToolDotaTileEditor.ModeBrushTrees:help" "Place trees over an area"
+
+		"Command.ToolDotaTileEditor.ModeBrushPath" "Paint Path"
+		"Command.ToolDotaTileEditor.ModeBrushPath:shorthelp" ""
+		"Command.ToolDotaTileEditor.ModeBrushPath:help" "Draw path and create ramps"
+
+		"Command.ToolDotaTileEditor.ModeBrushPlants" "Paint plants"
+		"Command.ToolDotaTileEditor.ModeBrushPlants:shorthelp" ""
+		"Command.ToolDotaTileEditor.ModeBrushPlants:help" "Place plants over an area"
+
+		"Command.ToolDotaTileEditor.ModeBrushWater" "Paint Water"
+		"Command.ToolDotaTileEditor.ModeBrushWater:shorthelp" ""
+		"Command.ToolDotaTileEditor.ModeBrushWater:help" "Draw water over an area"
+
+		"Command.ToolDotaTileEditor.NextVariation" ""
+		"Command.ToolDotaTileEditor.NextVariation:shorthelp" ""
+		"Command.ToolDotaTileEditor.NextVariation:help" "Pick the next variation of the selected item"
+
+		"Command.ToolDotaTileEditor.PreviousVariation" ""
+		"Command.ToolDotaTileEditor.PreviousVariation:shorthelp" ""
+		"Command.ToolDotaTileEditor.PreviousVariation:help" "Pick the previous variation of the selected item"
+
+		"Command.ToolDotaTileEditor.RandomVariation" ""
+		"Command.ToolDotaTileEditor.RandomVariation:shorthelp" ""
+		"Command.ToolDotaTileEditor.RandomVariation:help" "Pick a random variation of the selected item"
+
+		"Command.ToolDotaTileEditor.FreezeTile" ""
+		"Command.ToolDotaTileEditor.FreezeTile:shorthelp" ""
+		"Command.ToolDotaTileEditor.FreezeTile:help" "Create an editable copy of the selected tile"
+
+		"Command.ToolDotaTileEditor.HideTile" ""
+		"Command.ToolDotaTileEditor.HideTile:shorthelp" ""
+		"Command.ToolDotaTileEditor.HideTile:help" "Hide the selected tile"
+
+		"Command.ToolDotaTileEditor.ModeUnhideTiles" ""
+		"Command.ToolDotaTileEditor.ModeUnhideTiles:shorthelp" ""
+		"Command.ToolDotaTileEditor.ModeUnhideTiles:help" "Enter unhide tile mode, which can be used to un-hide previously hidden tiles"
+
+		"Command.ToolDotaTileEditor.ToggleTileSelection" ""
+		"Command.ToolDotaTileEditor.ToggleTileSelection:shorthelp" ""
+		"Command.ToolDotaTileEditor.ToggleTileSelection:help" "Toggle selecting tiles"
+
+		"Command.ToolDotaTileEditor.ToggleObjectSelection" ""
+		"Command.ToolDotaTileEditor.ToggleObjectSelection:shorthelp" ""
+		"Command.ToolDotaTileEditor.ToggleObjectSelection:help" "Toggle selecting objects"
+
+		"Command.HammerEditorSession.ToolDotaTileEditor" ""
+		"Command.HammerEditorSession.ToolDotaTileEditor:shorthelp" ""
+		"Command.HammerEditorSession.ToolDotaTileEditor:help" "Edit a Dota tile grid"
+
+		"Command.HammerEditorSession.ToolDisplacement" ""
+		"Command.HammerEditorSession.ToolDisplacement:shorthelp" ""
+		"Command.HammerEditorSession.ToolDisplacement:help" "Modify subdivided faces using brush tools"
+
+		"Command.HammerEditorSession.ToolPaint" ""
+		"Command.HammerEditorSession.ToolPaint:shorthelp" ""
+		"Command.HammerEditorSession.ToolPaint:help" "Paint vertex blends weights and colors"
+
+		"Command.HammerEditorSession.ToolTextureProjection" ""
+		"Command.HammerEditorSession.ToolTextureProjection:shorthelp" ""
+		"Command.HammerEditorSession.ToolTextureProjection:help" "Modify texture mapping using projection tools"
+
+		"Command.HammerEditorSession.ToolMirror" ""
+		"Command.HammerEditorSession.ToolMirror:shorthelp" ""
+		"Command.HammerEditorSession.ToolMirror:help" "Create a mirror copy of the selection"
+
+		"Command.HammerEditorSession.ToolClipper" ""
+		"Command.HammerEditorSession.ToolClipper:shorthelp" ""
+		"Command.HammerEditorSession.ToolClipper:help" "Slice the selection by a plane"
+
+		"Command.HammerEditorSession.ToolEntity" ""
+		"Command.HammerEditorSession.ToolEntity:shorthelp" ""
+		"Command.HammerEditorSession.ToolEntity:help" "Add new entities to the map"
+
+		"Command.HammerEditorSession.SetManipulationModePivot" ""
+		"Command.HammerEditorSession.SetManipulationModePivot:shorthelp" ""
+		"Command.HammerEditorSession.SetManipulationModePivot:help" "Set the location of the gizmo for the current selection"
+
+		"Command.HammerEditorSession.SetManipulationModeScale" ""
+		"Command.HammerEditorSession.SetManipulationModeScale:shorthelp" ""
+		"Command.HammerEditorSession.SetManipulationModeScale:help" "Scale the selected objects"
+
+		"Command.HammerEditorSession.SetManipulationModeRotate" ""
+		"Command.HammerEditorSession.SetManipulationModeRotate:shorthelp" ""
+		"Command.HammerEditorSession.SetManipulationModeRotate:help" "Rotate the selected objects"
+
+		"Command.HammerEditorSession.SetManipulationModeTranslate" ""
+		"Command.HammerEditorSession.SetManipulationModeTranslate:shorthelp" ""
+		"Command.HammerEditorSession.SetManipulationModeTranslate:help" "Move the selected objects"
+
+		"Command.HammerEditorSession.SetManipulationModeSelection" ""
+		"Command.HammerEditorSession.SetManipulationModeSelection:shorthelp" ""
+		"Command.HammerEditorSession.SetManipulationModeSelection:help" "Select groups, objects or mesh components"
+
+		"Command.ToolDotaTileEditor.ModeEnableDisableTiles" ""
+		"Command.ToolDotaTileEditor.ModeEnableDisableTiles:shorthelp" ""
+		"Command.ToolDotaTileEditor.ModeEnableDisableTiles:help" "Disable tiles or enable previously disabled tiles"
+
+		"Command.ToolDotaTileEditor.AssignNextTileSet" ""
+		"Command.ToolDotaTileEditor.AssignNextTileSet:shorthelp" ""
+		"Command.ToolDotaTileEditor.AssignNextTileSet:help" "Switch the selected item to the next tile set
+"
+
+		"Command.ToolDotaTileEditor.AssignPreviousTileSet" ""
+		"Command.ToolDotaTileEditor.AssignPreviousTileSet:shorthelp" ""
+		"Command.ToolDotaTileEditor.AssignPreviousTileSet:help" "Switch the selected item to the previous tile set"
+
+		"Command.ToolDotaTileEditor.AssignCurrentTileSet" ""
+		"Command.ToolDotaTileEditor.AssignCurrentTileSet:shorthelp" ""
+		"Command.ToolDotaTileEditor.AssignCurrentTileSet:help" "Assign the current tile set ot the selected item"
+
+		"Command.ToolDotaTileEditor.ShowGridProperties" ""
+		"Command.ToolDotaTileEditor.ShowGridProperties:shorthelp" ""
+		"Command.ToolDotaTileEditor.ShowGridProperties:help" "Open the peoperties for the tile grid where the active tile sets can be selected"
+
+		"Command.ToolDotaTileEditor.CollapseTiles" ""
+		"Command.ToolDotaTileEditor.CollapseTiles:shorthelp" ""
+		"Command.ToolDotaTileEditor.CollapseTiles:help" "Convert selected tiles into objects which can be directly edited"
+
+		"Command.HammerApp.ToggleShowVisContributorsOnly" ""
+		"Command.HammerApp.ToggleShowVisContributorsOnly:shorthelp" ""
+		"Command.HammerApp.ToggleShowVisContributorsOnly:help" "Hide objects and materials which do not contribute to vis."
+
+		"Command.HammerApp.ToggleForceLightsOn" ""
+		"Command.HammerApp.ToggleForceLightsOn:shorthelp" ""
+		"Command.HammerApp.ToggleForceLightsOn:help" "Force all lights to be on in the editor even if they are not set to be enabled in game."
+
+		"Command.ToolFastTexture.MappingUnwrapSquare" "Unwrap Square"
+		"Command.ToolFastTexture.MappingUnwrapSquare:shorthelp" "Unrwrap the selected faces and attempt to fit them into the current rectangle."
+		"Command.ToolFastTexture.MappingUnwrapSquare:help" ""
+
+		"Command.ToolFastTexture.MappingUnwrapConforming" "Unwrap Conforming"
+		"Command.ToolFastTexture.MappingUnwrapConforming:shorthelp" "Unwrap the selected faces attempting to minimize distortion."
+		"Command.ToolFastTexture.MappingUnwrapConforming:help" ""
+
+		"Command.ToolFastTexture.MappingPlanar" "Planar Projection"
+		"Command.ToolFastTexture.MappingPlanar:shorthelp" "Planar project the selected faces based on the current view. Can be run again to update from the current view."
+		"Command.ToolFastTexture.MappingPlanar:help" ""
+
+		"Command.ToolFastTexture.MappingUseExisting" "Use Existing"
+		"Command.ToolFastTexture.MappingUseExisting:shorthelp" "Use the existing UVs of the selected faces, but fit them to the current rectangle."
+		"Command.ToolFastTexture.MappingUseExisting:help" ""
+
+		"Command.ToolFastTexture_UVWidget.BeginPickEdge" "Pick Edge"
+		"Command.ToolFastTexture_UVWidget.BeginPickEdge:shorthelp" "Select an edge to align with the currently selected axis."
+		"Command.ToolFastTexture_UVWidget.BeginPickEdge:help" ""
+
+		"Command.ToolFastTexture.SmallerGrid" "Smaller Grid"
+		"Command.ToolFastTexture.SmallerGrid:shorthelp" "Decrease the number of units between grid lines."
+		"Command.ToolFastTexture.SmallerGrid:help" ""
+
+		"Command.ToolFastTexture.BiggerGrid" "Bigger Grid"
+		"Command.ToolFastTexture.BiggerGrid:shorthelp" "Increase the number of units between grid lines."
+		"Command.ToolFastTexture.BiggerGrid:help" ""
+
+		"Command.ToolFastTexture.ToggleFlipHorizontal" "Flip Horizontal"
+		"Command.ToolFastTexture.ToggleFlipHorizontal:shorthelp" "Horizontally flip the texture on the target faces."
+		"Command.ToolFastTexture.ToggleFlipHorizontal:help" ""
+
+		"Command.ToolFastTexture.ToggleFlipVertical" "Flip Vertical"
+		"Command.ToolFastTexture.ToggleFlipVertical:shorthelp" "Vertically flip the texture on the target faces."
+		"Command.ToolFastTexture.ToggleFlipVertical:help" ""
+
+		"Command.ToolFastTexture.DecreaseInset" "Decrease Inset"
+		"Command.ToolFastTexture.DecreaseInset:shorthelp" "Decrease the number of units the mapping is inset from the selected rectangle."
+		"Command.ToolFastTexture.DecreaseInset:help" ""
+
+		"Command.ToolFastTexture.IncreaseInset" "Increase Inset"
+		"Command.ToolFastTexture.IncreaseInset:shorthelp" "Increase the number of units the mapping is inset from the selected rectangle."
+		"Command.ToolFastTexture.IncreaseInset:help" ""
+
+		"Command.HammerEditorSession.RestartParticleEffects" ""
+		"Command.HammerEditorSession.RestartParticleEffects:shorthelp" ""
+		"Command.HammerEditorSession.RestartParticleEffects:help" "Restart the selected particle systems or all particle systems if none are selected"
+
+		"Command.HammerApp.ToggleVolumetricFog" "Toggle Volumetric Fog"
+		"Command.HammerApp.ToggleVolumetricFog:shorthelp" ""
+		"Command.HammerApp.ToggleVolumetricFog:help" ""
+	}
+}
